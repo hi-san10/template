@@ -1,0 +1,28 @@
+.register {
+    width: 1512px;
+    height: 982px;
+}
+
+.register__header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.register__main {
+    background-color: #F1ECE7;
+    width: 100%;
+    height: 882px;
+}
+
+.register__main-contents {
+    background-color: white;
+    width: 736px;
+    height: 644px ;
+}
+
+.register__header a {
+    color: #E8DFD5;
+    background-color: #F6F6F6;
+    text-decoration: none;
+}

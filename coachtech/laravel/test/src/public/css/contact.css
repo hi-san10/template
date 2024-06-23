@@ -1,0 +1,87 @@
+.contact__header {
+    border-bottom: solid 0.5px black;
+    height: 50px;
+    padding-bottom: 7px;
+}
+
+.contact__header h1 {
+    color: #8B7969;
+    text-align: center;
+    margin: 0px;
+}
+
+.contact__main h2 {
+    color: #8B7969;
+    text-align: center;
+}
+
+th {
+    color: #8B7969;
+    text-align: left;
+}
+
+td {
+    padding-left: 100px;
+}
+
+tr {
+    height: 15px;
+}
+
+.contact__main-contents {
+    margin-left: 400px;
+}
+
+input {
+    background: #F4F4F4;
+    border: none;
+    line-height: 2;
+}
+
+textarea {
+    background: #F4F4F4;
+    border: none;
+}
+
+select {
+    background: #F4F4F4;
+    border: none;
+}
+
+th span {
+    color: red;
+}
+
+button {
+    width: 80px;
+    color: white;
+    background-color: #82756B;
+}
+
+button {
+    margin-left: 280px;
+}
+
+.name input {
+    width: 200px;
+    padding-left: 20px;
+    margin-right: 40px;
+}
+
+.gender {
+    margin-left: 30px;
+}
+
+.text input {
+    width: 450px;
+    padding-left: 20px;
+}
+
+.tell input {
+    text-align: center;
+    width: 130px;
+}
+
+.radio input {
+    accent-color: black;
+}
