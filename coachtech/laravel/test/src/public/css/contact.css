@@ -85,3 +85,7 @@ button {
 .radio input {
     accent-color: black;
 }
+
+.error {
+    color: red;
+}

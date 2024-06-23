@@ -31,11 +31,7 @@ Route::post('/admin',[LoginController::class,'login']);
 
 Route::get('/logout',[LoginController::class,'logout']);
 
-Route::get('/admin1',[AdminController::class,'index']);
-
 Route::post('/confirm',[ConfirmController::class,'confirm']);
-
-Route::get('confirm1',[ConfirmController::class,'index']);
 
 Route::post('/contact/store',[ContactController::class,'store']);
 

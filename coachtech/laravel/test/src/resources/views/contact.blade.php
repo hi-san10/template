@@ -16,13 +16,13 @@
                     <tr class="name">
                         <th>お名前<span>※</span></th>
                         <td>
-                            <input type="text" name="first_name" placeholder="例:山田" value="{{old('first_name')}}">
-                            <input type="text" name="last_name" placeholder="例:太郎" value="{{old('last_name')}}">
+                            <input type="text" name="last_name" placeholder="例:山田" value="{{old('last_name')}}">
+                            <input type="text" name="first_name" placeholder="例:太郎" value="{{old('first_name')}}">
                         </td>
                     </tr>
                     <tr>
                         <th></th>
-                        <td>
+                        <td class="error">
                             @error('first_name')
                             {{$message}}
                             @enderror
@@ -40,7 +40,7 @@
                         </td>
                         <tr>
                             <th></th>
-                            <td>
+                            <td class="error">
                                 @error('gender')
                                 {{$message}}
                                 @enderror
@@ -54,7 +54,7 @@
                         </td>
                         <tr>
                             <th></th>
-                            <td>
+                            <td class="error">
                                 @error('email')
                                 {{$message}}
                                 @enderror
@@ -73,7 +73,7 @@
                     </tr>
                     <tr>
                         <th></th>
-                        <td>
+                        <td class="error">
                             @error('tell_1')
                             {{$message}}
                             @enderror
@@ -93,7 +93,7 @@
                     </tr>
                     <tr>
                         <th></th>
-                        <td>
+                        <td class="error">
                             @error('address')
                             {{$message}}
                             @enderror
@@ -119,7 +119,7 @@
                     </tr>
                     <tr>
                         <th></th>
-                        <td>
+                        <td class="error">
                             @error('category_id')
                             {{$message}}
                             @enderror
@@ -133,7 +133,7 @@
                     </tr>
                     <tr>
                         <th></th>
-                        <td>
+                        <td class="error">
                             @error('detail')
                             {{$message}}
                             @enderror

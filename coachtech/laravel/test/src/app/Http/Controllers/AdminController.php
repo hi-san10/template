@@ -59,10 +59,8 @@ class AdminController extends Controller
         rewind($f);
         $csv = str_replace(PHP_EOL,"\r\n",stream_get_contents($f));
         $csv = mb_convert_encoding($csv,'SJIS-win','UTF-8');
-        $now = new Carbon();
-        $filename = "ユーザー一覧(全件:" . $now->format('Y年m月d日'). ").csv";
         $headers = array(
-            'Content-Type'=>'text/csv','Content-Disposition'=>'attachment; filename'.$filename,
+            'Content-Type'=>'text/csv',
         );
 
         $categories = Category::all();

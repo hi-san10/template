@@ -9,9 +9,6 @@
     <div class="register__header">
         <h2>FashionablyLate</h2>
         <a href="/login">login</a>
-        <!-- <form action="/login">
-            <button>login</button>
-        </form> -->
     </div>
     <div class="register__main">
         <h3>Register</h3>
@@ -20,7 +17,7 @@
             <div class="register__main-contents">
                 <div class="register__main-contents--name">
                     <p>お名前</p>
-                    <input type="text" name="name" placeholder="例:山田　太郎"><br>
+                    <input type="text" name="name" placeholder="例:山田 太郎"><br>
                     @error('name')
                     <span class="error">{{$message}}</span>
                     @enderror

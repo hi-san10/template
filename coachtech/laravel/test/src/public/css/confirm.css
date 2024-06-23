@@ -12,8 +12,13 @@
     text-align: center;
 }
 
+.confirm__main-contents {
+    margin-left: 400px;
+}
+
 table {
-    border-collapse: collapse
+    border-collapse: collapse;
+    margin-bottom: 50px;
 }
 
 
@@ -27,16 +32,40 @@ th {
 
 td {
     border: solid 0.5px #BAA899;
-    width: 300px;
+    width: 400px;
+    padding-left: 40px;
 }
 
 
-input {
+input,textarea {
     outline: none;
     border: none;
+    color: #8B7969;
+    resize: none;
 }
 
-.tell input {
+.tell input,
+.address,
+.building,
+.detail,
+.category {
+    width: 400px;
+}
+
+.name input {
     width: 50px;
 }
 
+.send {
+    width: 80px;
+    margin-left: 280px;
+    background-color: #82756A;
+    color: white;
+    border: none;
+}
+
+.fixes {
+    border: none;
+    color: #8B7969;
+    background-color: white;
+}
