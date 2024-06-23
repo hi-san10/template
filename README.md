@@ -32,6 +32,10 @@
 
 ・MYSQL 8.0
 
+## ER図
+
+![](https://github.com/hi-san10/coachtechtest/blob/main/coachtech/laravel/test/.drawio.png)
+
 ## URL
 
 ・開発環境:[http//localhost/](http//localhost/)
